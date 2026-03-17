@@ -15,7 +15,7 @@ public class ScannerEx{
         int age = scanner.nextInt();
         System.out.print("나이는" + age + "살, ");
 
-        double weight = scanner.n서extDouble();
+        double weight = scanner.nextDouble();
         System.out.print("체중은" + weight + "kg, ");
 
         boolean single = scanner.nextBoolean(); // 논리값 읽기
