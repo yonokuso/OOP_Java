@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "SuccessOrFail",
+            "request": "launch",
+            "mainClass": "SuccessOrFail",
+            "projectName": "OOP_Java_8af2bb99"
+        },
+        {
+            "type": "java",
+            "name": "AssignmentIncDecOperator",
+            "request": "launch",
+            "mainClass": "AssignmentIncDecOperator",
+            "projectName": "OOP_Java_8af2bb99"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
