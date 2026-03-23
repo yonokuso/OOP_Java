@@ -13,7 +13,7 @@ public class LogicalOperator
 
         // 비교 연산과 논리 연산 복합
         System.out.println((3 > 2) && (3 > 4)); // t && f = f
-        System.out.println((3 != 2) || (-1 > 0)); // t || f = t??
+        //System.out.println((3 != 2) || (-1 > 0)); // t || f = t??
         System.out.println((3 != 2) ^ (-1 > 0)); // t ^ f = t
     }
 }
