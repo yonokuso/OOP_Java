@@ -1,29 +1,20 @@
 public class Circle
 {
     int radius;
-    String name;
+    public Circle(int radius) { this.radius = radius; } // 생성자1
 
-    //public Circle() {} // 생성자-return type이 없음
-
-    public double getArea() // 면적 계산 메소드
-    {
-        return 3.14*radius*radius;
-
-    }
-
+    public void set(int radius) { this.radius = radius; } // set
     public static void main(String[] args)
     {
-        Circle pizza;
-        pizza = new Circle();
-        pizza.radius = 10;
-        pizza.name = "자바피자";
-        double area = pizza.getArea();
-        System.out.println(pizza.name + "의 면적은 " + area);
+        Circle ob1 = new Circle(1); // 생성초기화
+        Circle ob2 = new Circle(2); // 생성초기화
+        Circle s;
 
-        Circle donut = new Circle();
-        donut.radius = 2;
-        donut.name = "자바도넛";
-        area = donut.getArea();
-        System.out.println(donut.name + "의 면적은 " + area);
+        s = ob2; // 복사, s->2
+        ob1 = ob2; //객체 치환, 복사가 아님, ob1->2
+        System.out.println("ob1.radius=" + ob1.radius); //2
+        System.out.println("ob2.radius=" + ob2.radius); //2
+
     }
+
 }
